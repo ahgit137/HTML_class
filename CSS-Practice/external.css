@@ -1,0 +1,53 @@
+p {
+    color: blue;
+    background-color:beige;
+}
+
+#unique {
+    color: black;
+}
+
+.paragraph {
+    color: green;
+}
+
+p {
+    color: brown;
+}
+
+input[type="text"] {
+    color: yellow;
+}
+
+[type="text"] {
+    color: red;
+}
+
+
+h2, h3, textarea {
+    color:darkgreen;
+}
+
+/* Unique ID and Heading Class */
+#unique, .heading {
+    font-size: 30px;
+}
+
+/* Child Selector */
+#unique .heading {
+    font-size: 30px;
+}
+
+/* Pseudo-classes */
+a:hover {
+    background-color: blue;
+}
+
+/* Pseudo-element */
+h3::before, h3::after {
+    content: "'"
+}
+
+h2::first-letter {
+    color: red;
+}

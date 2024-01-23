@@ -1,0 +1,78 @@
+/* Universal Font */
+/* * {
+    font-family: "Inter";
+} */
+
+* {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("background_2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* targeting font-example */
+.font-example {
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: italic;
+}
+
+.text-alignment {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.spacing {
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.border {
+    border: 2px black solid;
+    /* width, color, style */
+
+    border-color: purple;
+    border-width: 5px;
+    border-style: dashed;
+}
+
+.shadow {
+    /* horizontal, vertical, blur, color */
+    /* text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.5); */
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.5);
+
+    /* uppercase, lowercase or capitalize text */
+    text-transform: uppercase;
+}
+
+#box-model {
+    /* margin: 30px 10px 20px 40px; */
+    /* margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px; */
+    margin: 30px;
+    width: 50%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border: 2px red solid;
+}
+/* 
+    MARGIN & PADDING
+    ================
+    1-value = applied on all 4 sides
+    2-value = top and bottom side || right and left side
+    3-value = top side,  || right and left side || bottom side
+    4-value = top || right || bottom || left
+*/
